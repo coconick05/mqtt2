@@ -37,6 +37,9 @@ def publicar(topic, mensaje):
 
 st.title("MQTT Control")
 
+# Imagen debajo del título
+st.image("catmqtt2.jpg", use_container_width=True)
+
 col1, col2 = st.columns(2)
 
 with col1:
